@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite Application</title>
+  </head>
+  <body>
+    <div class="toolbar">
+      <button id="btSave">Save</button>
+      <button id="btOpen">Open</button>
+      <button id="btReset">Reset</button>
+      <button id="btMode">Mode</button>
+    </div>
+    <div id="appVersion"></div>
+    <div id="tabsContainer">
+      <ul>
+        <li><a href="#tabs-1">Image Un</a></li>
+        <li><a href="#tabs-2">Image Deux</a></li>
+      </ul>
+      <div id="tabs-1">
+        <img src="https://picsum.photos/800/450?random=1">
+      </div>
+      <div id="tabs-2">
+        <img src="https://picsum.photos/800/450?random=2">
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

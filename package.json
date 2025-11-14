@@ -1,0 +1,17 @@
+{
+  "name": "basevite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite  --host",
+    "build": "date +%Y%m%d.%H%M>src/version.json;vite build  --emptyOutDir",
+    "preview": "vite preview --host",
+    "deploy" : "rm -r  ../gbruneau.github.io/myNewApplicationName/;cp -R dist/myNewApplicationName/ ../gbruneau.github.io/"
+  },
+  "devDependencies": {
+    "vite": "^7.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "jquery-ui-bundle": "^1.12.1-migrate"
+  }
+}
