@@ -1,6 +1,4 @@
 ajoute commit  A
 ajoute commit B
 
-ajout commit C
-
-rendu a D
+remene apres commit  C et  D  pour commit  E
